@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tendwet Elites Volleyball — Elites Mentality. Home of Champions. One Team, One Spirit, Champions Forever.">
+<title>Tendwet Elites Volleyball | Home of Champions</title>
+<style>
+:root{--gold:#f6c515;--gold2:#ffdf55;--black:#070707;--dark:#11151d;--white:#fff;--muted:#c7ccd4}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#080808;color:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+nav{position:sticky;top:0;z-index:20;background:#080808ee;border-bottom:1px solid #ffffff18;backdrop-filter:blur(12px)}
+.navin{max-width:1150px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900}
+.brand img{width:48px;height:48px;object-fit:contain}
+.brand span{color:var(--gold)}
+.links{display:flex;gap:24px;font-weight:700;font-size:.95rem}
+.links a:hover{color:var(--gold)}
+.hero{min-height:88vh;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;background:linear-gradient(#0008,#000c),url("images/gallery-1.jpg") center/cover}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:35%;background:linear-gradient(transparent,#080808)}
+.hero-content{position:relative;z-index:2;max-width:900px;padding:60px 20px}
+.hero-logo{width:min(330px,75vw);margin-bottom:12px}
+.kicker{color:var(--gold);font-weight:900;letter-spacing:3px;text-transform:uppercase}
+h1{font-size:clamp(2.5rem,8vw,5.8rem);line-height:.98;margin:10px 0 18px;text-transform:uppercase}
+h1 span{color:var(--gold)}
+.hero p{font-size:1.15rem;color:#eee;max-width:650px;margin:0 auto 28px}
+.btn{display:inline-block;padding:13px 23px;border-radius:6px;background:var(--gold);color:#111;font-weight:900;margin:5px;border:2px solid var(--gold)}
+.btn.dark{background:transparent;color:#fff}
+section{padding:80px 20px}
+.wrap{max-width:1150px;margin:auto}
+.title{text-align:center;margin-bottom:42px}
+.title small{color:var(--gold);font-weight:900;letter-spacing:2px;text-transform:uppercase}
+.title h2{font-size:clamp(2rem,5vw,3.2rem);margin:5px 0}
+.title p{color:var(--muted)}
+.about{background:#10141c}
+.grid{display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:center}
+.about img{width:100%;border-radius:14px;display:block;max-height:560px;object-fit:cover}
+.copy h3{font-size:2rem;color:var(--gold);margin-bottom:12px}
+.copy p{color:#d7dbe2;margin-bottom:16px}
+.values{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:25px}
+.value{padding:20px;border:1px solid #ffffff18;border-radius:10px;background:#ffffff06}
+.value b{color:var(--gold);display:block;margin-bottom:5px}
+.gallery{background:#080808}
+.photos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.photos img{width:100%;height:300px;object-fit:cover;border-radius:10px;transition:.25s}
+.photos img:hover{transform:scale(1.02)}
+.feature{background:#10141c}
+.feature img{width:100%;max-width:700px;display:block;margin:auto;border-radius:12px}
+.contact{background:linear-gradient(135deg,#161616,#080808);text-align:center}
+.contact h2{font-size:2.8rem}
+.contact p{color:var(--muted);max-width:650px;margin:10px auto 20px}
+footer{border-top:1px solid #ffffff15;text-align:center;padding:28px 20px;color:#aeb5c0}
+footer strong{color:var(--gold)}
+@media(max-width:800px){.links{gap:10px;font-size:.8rem}.brand span{display:none}.grid{grid-template-columns:1fr}.photos{grid-template-columns:1fr 1fr}.photos img{height:220px}.values{grid-template-columns:1fr}}
+@media(max-width:500px){.links a:nth-child(3){display:none}.photos{grid-template-columns:1fr}.photos img{height:280px}}
+
+.players{background:#10141c}
+.position-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.position-card{background:#080808;border:1px solid #ffffff18;border-top:4px solid var(--gold);border-radius:12px;padding:25px}
+.position-card h3{color:var(--gold);font-size:1.25rem;margin-bottom:15px}
+.position-card ol{padding-left:25px;color:#eee}
+.position-card li{padding:6px 0;border-bottom:1px solid #ffffff0d}
+.position-card li:last-child{border-bottom:0}
+@media(max-width:700px){.position-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav>
+ <div class="navin">
+  <a class="brand" href="#home"><img src="images/logo.png" alt="Tendwet Elites logo"><span>TENDWET ELITES</span></a>
+  <div class="links">
+   <a href="#home">Home</a><a href="#about">About</a><a href="#players">Players</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+  </div>
+ </div>
+</nav>
+
+<header class="hero" id="home">
+ <div class="hero-content">
+  <img class="hero-logo" src="images/logo.png" alt="Tendwet Elites Volleyball">
+  <div class="kicker"># Elites Mentality</div>
+  <h1>Home of <span>Champions</span></h1>
+  <p>One Team. One Spirit. Champions Forever. Welcome to Tendwet Elites Volleyball — where passion, discipline and teamwork meet the court.</p>
+  <a class="btn" href="#gallery">See Our Journey</a>
+  <a class="btn dark" href="#contact">Connect With Us</a>
+ </div>
+</header>
+
+<section class="about" id="about">
+ <div class="wrap">
+  <div class="title"><small>Our Identity</small><h2>Tendwet Elites Volleyball</h2><p>Built together. Competing together. Growing together.</p></div>
+  <div class="grid">
+   <img src="images/team.jpg" alt="Tendwet Elites players">
+   <div class="copy">
+    <h3>One Team, One Spirit</h3>
+    <p>Tendwet Elites is a volleyball team driven by the love of the game and the desire to become better every day.</p>
+    <p>Our mentality is simple: work hard, respect the game, support one another and compete with courage.</p>
+    <div class="values">
+     <div class="value"><b>ELITES MENTALITY</b>Believe. Work. Improve.</div>
+     <div class="value"><b>TEAMWORK</b>Every player matters.</div>
+     <div class="value"><b>CHAMPIONS</b>Strive for excellence.</div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+
+<section class="players" id="players">
+ <div class="wrap">
+  <div class="title"><small>Meet The Squad</small><h2>Tendwet Elites Players</h2><p>Our players bring skill, energy and the Elites mentality to every match.</p></div>
+  <div class="position-grid">
+   <div class="position-card"><h3>SETTERS</h3><ol>
+    <li>JOHNSON</li><li>VICTOR</li><li>AMOS</li><li>EMMANUU</li>
+   </ol></div>
+   <div class="position-card"><h3>RIGHT ATTACKERS</h3><ol>
+    <li>BRINDO</li><li>D LUX</li><li>DAGGY</li><li>GODWIN</li>
+   </ol></div>
+   <div class="position-card"><h3>LEFT ATTACKERS</h3><ol>
+    <li>ALBERT</li><li>GENERALI</li><li>GILBERT</li><li>ELKANA</li>
+   </ol></div>
+   <div class="position-card"><h3>MIDDLE BLOCKERS</h3><ol>
+    <li>AMOS</li><li>LANNE</li><li>D LUX</li><li>KENN</li><li>GILBERT</li>
+   </ol></div>
+  </div>
+ </div>
+</section>
+
+<section class="gallery" id="gallery">
+ <div class="wrap">
+  <div class="title"><small>On The Court</small><h2>Our Volleyball Journey</h2><p>Training, competition and unforgettable team moments.</p></div>
+  <div class="photos">
+   <img src="images/gallery-1.jpg" alt="Tendwet Elites volleyball action">
+   <img src="images/player-1.jpg" alt="Tendwet Elites volleyball player">
+   <img src="images/gallery-2.jpg" alt="Tendwet Elites match">
+   <img src="images/gallery-3.jpg" alt="Tendwet Elites volleyball action">
+   <img src="images/team.jpg" alt="Tendwet Elites team">
+   <img src="images/match-poster.jpg" alt="Tendwet Elites match poster">
+  </div>
+ </div>
+</section>
+
+<section class="feature">
+ <div class="wrap">
+  <div class="title"><small>Match Day</small><h2>Bring The Energy</h2><p>Follow Tendwet Elites for upcoming matches, results and team news.</p></div>
+  <img src="images/match-poster.jpg" alt="Tendwet Elites match day poster">
+ </div>
+</section>
+
+<section class="contact" id="contact">
+ <div class="wrap">
+  <h2>Join The Elites</h2>
+  <p>For team enquiries, partnerships, matches and volleyball activities, connect with Tendwet Elites.</p>
+  <a class="btn" href="tel:+254700670457">📞 Call Team Manager</a>
+  <a class="btn dark" href="https://wa.me/254700670457" target="_blank" rel="noopener">💬 WhatsApp Manager</a>
+  <p style="font-size:1.05rem;margin-top:18px">Team Manager: <strong style="color:var(--gold)">0700 670 457</strong></p>
+ </div>
+</section>
+
+<footer>
+ <strong>TENDWET ELITES VOLLEYBALL</strong><br>
+ # Elites Mentality · Home of Champions · One Team | One Spirit | Champions Forever
+</footer>
+</body>
+</html>
